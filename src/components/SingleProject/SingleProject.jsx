@@ -4,7 +4,7 @@ const SingleProject = ({ proj, getSingle }) => {
   return (
     <>
       <div className="col-md-4" onClick={() => getSingle(proj.id)}>
-        <img src={proj?.src} className="w-100" />
+        <img src={proj?.src} className="w-100 cursor" />
       </div>
     </>
   );

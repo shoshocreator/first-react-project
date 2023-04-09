@@ -189,4 +189,5 @@ footer {
 .overlay {
   height: calc(100vh - 96px);
   top: 96px;
+  background-color: rgba(23, 22, 22, 0.953);
 }
